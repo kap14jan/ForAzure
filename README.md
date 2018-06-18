@@ -1,0 +1,2 @@
+# ForAzure
+TestProjectForAzure

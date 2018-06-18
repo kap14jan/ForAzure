@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201806100840381_CreateEmployeeData.Designer.cs">
       <DependentUpon>201806100840381_CreateEmployeeData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806180906269_CreateEmployeeData1.cs" />
+    <Compile Include="Migrations\201806180906269_CreateEmployeeData1.Designer.cs">
+      <DependentUpon>201806180906269_CreateEmployeeData1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\EmployeeData.cs" />
@@ -308,6 +312,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806100840381_CreateEmployeeData.resx">
       <DependentUpon>201806100840381_CreateEmployeeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806180906269_CreateEmployeeData1.resx">
+      <DependentUpon>201806180906269_CreateEmployeeData1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -23,5 +23,8 @@ namespace EmployeeData.Models
 
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Required]
+        public string Gender { get; set; }
     }
 }

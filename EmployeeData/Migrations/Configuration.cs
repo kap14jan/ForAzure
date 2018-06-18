@@ -18,9 +18,9 @@ namespace EmployeeData.Migrations
         {
 
             var emp = new List<Employee> {
-                new Employee(){Name = "Kapil",Contact="9811846441",Email="kap@jan.com",Age=34},
-                new Employee(){Name = "Kapil1",Contact="9811846442",Email="kap1@jan.com",Age=35},
-                new Employee(){Name = "Kapil2",Contact="9811846443",Email="kap2@jan.com",Age=36},
+                new Employee(){Name = "Kapil",Contact="9811846441",Email="kap@jan.com",Age=34,Gender="M"},
+                new Employee(){Name = "Kapil1",Contact="9811846442",Email="kap1@jan.com",Age=35,Gender="M"},
+                new Employee(){Name = "Kapil2",Contact="9811846443",Email="kap2@jan.com",Age=36,Gender="M"},
             };
 
             emp.ForEach(e => context.Employees.AddOrUpdate(p => p.Id, e));
